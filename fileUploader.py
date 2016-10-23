@@ -6,7 +6,7 @@ app = Flask(__name__)
 def upload():
   if request.method == 'POST':
     f = request.files['datafile']
-    f.save('static/uploads/police.jpg')
+    f.save('static/uploads/satsupe4.jpg')
     return "File Uploaded!"
 
   else:

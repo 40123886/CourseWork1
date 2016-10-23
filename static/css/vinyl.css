@@ -109,4 +109,14 @@ body{
 .album_tracks{
   clear:left;
   padding:20px;
+  position:relative;
+  top:-60px;
+}
+.flexslider{
+  float:left;
+  margin:0px;
+  width:400px;
+}
+.flex-control-nav.flex-control-paging{
+  display:none;
 }
