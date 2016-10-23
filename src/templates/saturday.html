@@ -1,0 +1,77 @@
+{% extends "baseTemplate.html" %}
+{% block content %}
+
+  <div class="container">
+  <div class="page-header">
+    <h2>Saturday Superhouse<h2>
+  </div>
+    <div class="flexslider">
+      <ul class="slides">
+        <li>    
+          <img src="/../static/uploads/satsuper1.jpg"/>
+        </li>
+        <li>    
+          <img src="/../static/uploads/satsuper2.jpg"/>
+        </li>
+        <li>    
+          <img src="/../static/uploads/satsuper3.jpg"/>
+        </li>
+        <li>    
+          <img src="/../static/uploads/satsupe4.jpg"/>
+        </li>
+      </ul>
+    </div>
+    <div class="album_info">
+      <table class="table table-striped table-responsive table-condensed">
+        <tr>
+          <td><b>Artist:</b></td>
+          <td><a href="/artists/biffy_clyro">Biffy Clyro</a></td>
+        </tr>
+        <tr>
+          <td><b>Album:</b></td>
+          <td><a href="/artists/biffy_clyro/puzzle">Puzzle</a></td>
+        </tr>
+        <tr>
+          <td><b>Release Date:</b></td>
+          <td>March 5 2007</td>
+        </tr>
+        <tr>
+          <td><b>Length:</b></td>
+          <td>3:19</td>
+        </tr>
+      </table>
+    </div>
+    <div class="album_tracks">
+      <h3>Track Listing</h3>
+      <table class="table table-striped table-responsive table-condensed">
+        <tr>
+          <th>Title</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <th colspan="2">7" Vinyl #1</th>
+        </tr>
+        <tr>
+          <td>Saturday SuperHouse</td>
+          <td>3:19</td>
+        </tr>
+        <tr>
+          <td>I'm Behind You(B-side)</td>
+          <td>2:36</td>
+        </tr>
+        <tr>
+          <th colspan="2">7" Vinyl #2</th>
+        </tr>
+        <tr>
+          <td>Saturday Superhouse</td>
+          <td>3:19</td>
+        </tr>
+        <tr>
+          <td>Miracle of Survival(B-side)</td>
+          <td>4:53</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+{% endblock %}
