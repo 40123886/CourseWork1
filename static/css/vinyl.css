@@ -1,0 +1,112 @@
+body{
+  margin:50px 0;
+  padding-top:70px;
+  text-decoration:none;
+}
+.container{
+  margin:0 auto;
+  max-width:1000px;
+}
+.tile{
+  float: left;
+  width:220px;
+  margin:10px;
+  cursor:pointer;
+  min-height:220px;
+  background-color: #eee;
+}
+.tile span{
+  display:block;
+  font-size:20px;
+  line-height:220px;
+  text-align:center;
+}
+.title_bar{
+  background-color:rgba(0, 0, 0, 0.4);
+  max-height:75px;
+  transition:max-height 0.8s;
+}
+.tile:hover .title_bar{
+  max-height:220px;
+}
+.biffy{
+  background-image: url(../uploads/biffy.jpg);
+}
+.marley{
+  background-image: url(../uploads/marley.jpg);
+}
+.darkness{
+  background-image: url(../uploads/darkness.jpeg);
+}
+.rhcp{
+  background-image: url(../uploads/rhcp.jpg);
+}
+.beatles{
+  background-image: url(../uploads/beatles.jpg);
+}
+.foofighters{
+  background-image: url(../uploads/foofighters.jpg);
+}
+.bravery{
+  background-image: url(../uploads/bravery.jpg);
+}
+.killers{
+  background-image: url(../uploads/killers.png);
+}
+.acdc{
+  background-image: url(../uploads/acdc.jpg);
+}
+.bowie{
+  background-image: url(../uploads/bowie.png);
+}
+.police{
+  background-image: url(../uploads/police.jpg);
+}
+.buzzcocks{
+  background-image: url(../uploads/buzzcocks.jpg);
+}
+.blacksky{
+  background-image: url(../uploads/blacksky.jpg);
+}
+.vertigo{
+  background-image: url(../uploads/vertigo.jpg);
+}
+.infinity{
+  background-image: url(../uploads/infinity.jpg);
+}
+.puzzle{
+  background-image: url(../uploads/puzzle.jpg);
+}
+.onlyrev{
+  background-image: url(../uploads/revolutions.jpg);
+}
+.opposites{
+  background-image: url(../uploads/opposites.jpg);
+}
+.ellipsis{
+  background-image: url(../uploads/ellipsis.jpg);
+}
+.text{
+  color:#fff;
+  position:relative;
+  top:-55pt;
+  transition:top 0.8s;
+  text-decoration:none;
+}
+.tile:hover .text{
+  top:0px;
+  transition:top 0.8s;
+  text-decoration:none;
+}
+.album_image{
+  float:left;
+}
+.album_info{
+  width:50%;
+  float:left;
+  padding:20px;
+}
+.album_tracks{
+  clear:left;
+  padding:20px;
+}
