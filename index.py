@@ -1,9 +1,21 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
+@app.route('/home/')
+def home():
+  return render_template('home.html')
+
 @app.route('/artists/')
 def index():
   return render_template('index.html')
+
+@app.route('/albums/')
+def albums():
+  return render_template('albums.html')
+
+@app.route('/singles/')
+def singles():
+  return render_template('singles.html')
 
 @app.route('/artists/biffy_clyro/')
 def artist():
@@ -27,7 +39,7 @@ def saturday():
 
 @app.errorhandler(404)
 def page_not_found(e):
-  return render_template('biffy.html'), 404
+  return render_template('404.html'), 404
 
 if __name__ == ("__main__"):
   app.run(host='0.0.0.0', debug=True)
