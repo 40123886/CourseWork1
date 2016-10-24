@@ -1,3 +1,5 @@
+import ConfigParser
+
 from flask import Flask, render_template
 app = Flask(__name__)
 
@@ -41,5 +43,21 @@ def saturday():
 def page_not_found(e):
   return render_template('404.html'), 404
 
+def init(app):
+  config = ConfigParser.ConfigParser()
+  try:
+      config_location = "etc/defaults.cfg"
+      config.read(config_location)
+
+      app.config['DEBUG'] = config.get("config", "debug")
+      app.config['ip_address'] = config.get("config", "ip_address")
+      app.config['port'] = config.get("config", "port")
+      app.config['url'] =  config.get("congfig", "url")
+  except:
+      print "Could not read the config file from", config_location
+
 if __name__ == ("__main__"):
-  app.run(host='0.0.0.0', debug=True)
+  init(app)
+  app.run(
+      host=app.config['ip_address'],
+      port=int(app.config['port']))
