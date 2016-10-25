@@ -1,0 +1,78 @@
+INFO | 2016-10-24 23:10:09,325 | index | root | Location = root
+INFO | 2016-10-24 23:56:06,131 | index | root | Home Page
+INFO | 2016-10-24 23:56:32,127 | index | root | Home Page
+INFO | 2016-10-24 23:56:37,781 | index | root | Home Page
+INFO | 2016-10-24 23:56:53,834 | index | root | Home Page
+INFO | 2016-10-24 23:57:00,023 | index | artists | Artist Selection
+INFO | 2016-10-24 23:58:51,764 | index | root | Home Page
+INFO | 2016-10-24 23:58:55,290 | index | artists | Artist Selection
+INFO | 2016-10-24 23:59:01,969 | index | albums | Album Selection
+INFO | 2016-10-24 23:59:09,224 | index | singles | Single Selection
+INFO | 2016-10-24 23:59:19,391 | index | artists | Artist Selection
+INFO | 2016-10-24 23:59:22,206 | index | artist | Artist page/artists/biffy_clyro/
+INFO | 2016-10-25 00:03:26,413 | index | artist | Artist page - /artists/biffy_clyro/
+INFO | 2016-10-25 00:03:29,861 | index | blacksky | Album page - /artists/biffy_clyro/blackened_sky
+INFO | 2016-10-25 00:03:37,842 | index | artist | Artist page - /artists/biffy_clyro/
+INFO | 2016-10-25 00:03:40,495 | index | puzzle | Album page - /artists/biffy_clyro/puzzle
+INFO | 2016-10-25 00:04:22,076 | index | saturday | Single page - /artists/biffy_clyro/puzzle/saturday_superhouse
+INFO | 2016-10-25 00:04:29,343 | index | stars | Single page - /artists/biffy_clyro/puzzle/folding_stars
+INFO | 2016-10-25 00:07:05,830 | index | root | Home Page - /
+INFO | 2016-10-25 00:07:08,787 | index | artists | Artist Selection - /artists/
+INFO | 2016-10-25 00:07:56,647 | index | artists | Artist Selection - /artists/
+INFO | 2016-10-25 00:12:50,710 | index | artist | Artist page - /artists/biffy_clyro/
+INFO | 2016-10-25 00:12:51,378 | index | artist | Artist page - /artists/biffy_clyro/
+INFO | 2016-10-25 00:12:54,414 | index | puzzle | Album page - /artists/biffy_clyro/puzzle
+INFO | 2016-10-25 00:14:52,503 | index | puzzle | Album page - /artists/biffy_clyro/puzzle
+INFO | 2016-10-25 00:16:53,821 | index | puzzle | Album page - /artists/biffy_clyro/puzzle
+INFO | 2016-10-25 00:17:59,983 | index | root | Home Page - /
+INFO | 2016-10-25 00:18:05,812 | index | artists | Artist Selection - /artists/
+INFO | 2016-10-25 00:24:56,817 | index | root | Home Page - /
+INFO | 2016-10-25 00:32:24,493 | index | root | Home Page - /
+INFO | 2016-10-25 00:32:27,073 | index | singles | Single Selection - /singles/
+INFO | 2016-10-25 00:32:29,657 | index | saturday | Single page - /artists/biffy_clyro/puzzle/saturday_superhouse
+INFO | 2016-10-25 00:33:07,462 | index | puzzle | Album page - /artists/biffy_clyro/puzzle
+INFO | 2016-10-25 00:33:13,264 | index | saturday | Single page - /artists/biffy_clyro/puzzle/saturday_superhouse
+INFO | 2016-10-25 00:35:46,140 | index | puzzle | Album page - /artists/biffy_clyro/puzzle
+INFO | 2016-10-25 00:35:50,029 | index | saturday | Single page - /artists/biffy_clyro/puzzle/saturday_superhouse
+INFO | 2016-10-25 00:37:02,477 | index | puzzle | Album page - /artists/biffy_clyro/puzzle
+INFO | 2016-10-25 00:37:06,616 | index | saturday | Single page - /artists/biffy_clyro/puzzle/saturday_superhouse
+INFO | 2016-10-25 00:37:12,197 | index | singles | Single Selection - /singles/
+INFO | 2016-10-25 00:39:06,544 | index | singles | Single Selection - /singles/
+INFO | 2016-10-25 00:39:09,862 | index | albums | Album Selection - /albums/
+INFO | 2016-10-25 00:39:11,783 | index | singles | Single Selection - /singles/
+INFO | 2016-10-25 00:39:49,520 | index | singles | Single Selection - /singles/
+INFO | 2016-10-25 00:40:45,443 | index | saturday | Single page - /artists/biffy_clyro/puzzle/saturday_superhouse
+INFO | 2016-10-25 00:43:11,508 | index | singles | Single Selection - /singles/
+INFO | 2016-10-25 00:43:15,733 | index | saturday | Single page - /artists/biffy_clyro/puzzle/saturday_superhouse
+ERROR | 2016-10-25 00:45:33,193 | index | page_not_found | 404: Not Found
+INFO | 2016-10-25 00:50:11,593 | index | singles | Single Selection - /singles/
+INFO | 2016-10-25 00:50:17,241 | index | saturday | Single page - /artists/biffy_clyro/puzzle/saturday_superhouse
+ERROR | 2016-10-25 00:50:17,276 | index | saturday | saturday.htm
+INFO | 2016-10-25 00:55:07,466 | index | singles | Single Selection - /singles/
+INFO | 2016-10-25 00:55:11,077 | index | saturday | Single page - /artists/biffy_clyro/puzzle/saturday_superhouse
+ERROR | 2016-10-25 00:55:11,092 | index | saturday | saturday.htm
+INFO | 2016-10-25 00:55:19,755 | index | stars | Single page - /artists/biffy_clyro/puzzle/folding_stars
+ERROR | 2016-10-25 00:55:19,768 | index | stars | folding.htm
+INFO | 2016-10-25 00:56:16,242 | index | artists | Artist Selection - /artists/
+INFO | 2016-10-25 00:56:19,536 | index | artist | Artist page - /artists/biffy_clyro/
+INFO | 2016-10-25 00:56:23,084 | index | puzzle | Album page - /artists/biffy_clyro/puzzle
+ERROR | 2016-10-25 00:56:23,098 | index | puzzle | puzzle.htm
+INFO | 2016-10-25 00:56:26,047 | index | blacksky | Album page - /artists/biffy_clyro/blackened_sky
+ERROR | 2016-10-25 00:56:26,076 | index | blacksky | blacksky.htm
+INFO | 2016-10-25 00:57:44,470 | index | artist | Artist page - /artists/biffy_clyro/
+ERROR | 2016-10-25 00:57:44,543 | index | artist | biffy.htm
+INFO | 2016-10-25 00:58:24,521 | index | root | Home Page - /
+INFO | 2016-10-25 00:58:54,586 | index | artists | Artist Selection - /artists/
+INFO | 2016-10-25 00:58:56,379 | index | albums | Album Selection - /albums/
+INFO | 2016-10-25 00:58:58,123 | index | singles | Single Selection - /singles/
+INFO | 2016-10-25 00:59:00,653 | index | saturday | Single page - /artists/biffy_clyro/puzzle/saturday_superhouse
+INFO | 2016-10-25 00:59:02,948 | index | stars | Single page - /artists/biffy_clyro/puzzle/folding_stars
+INFO | 2016-10-25 00:59:05,269 | index | artist | Artist page - /artists/biffy_clyro/
+INFO | 2016-10-25 00:59:07,373 | index | blacksky | Album page - /artists/biffy_clyro/blackened_sky
+INFO | 2016-10-25 00:59:09,885 | index | artist | Artist page - /artists/biffy_clyro/
+INFO | 2016-10-25 00:59:11,521 | index | puzzle | Album page - /artists/biffy_clyro/puzzle
+INFO | 2016-10-25 00:59:15,217 | index | stars | Single page - /artists/biffy_clyro/puzzle/folding_stars
+INFO | 2016-10-25 00:59:19,593 | index | puzzle | Album page - /artists/biffy_clyro/puzzle
+INFO | 2016-10-25 00:59:23,182 | index | saturday | Single page - /artists/biffy_clyro/puzzle/saturday_superhouse
+INFO | 2016-10-25 00:59:28,166 | index | root | Home Page - /
+ERROR | 2016-10-25 00:59:32,318 | index | page_not_found | 404: Not Found
